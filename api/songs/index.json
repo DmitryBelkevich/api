@@ -5112,6 +5112,7 @@
     "instruments": [
       {
         "title": "Guitar",
+        "key": "Em",
         "capo": 6
       },
       {

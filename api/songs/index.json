@@ -4127,6 +4127,27 @@
     "visible": true
   },
   {
+    "id": "412",
+    "band": "Nautilus Pompilius", "title": "Чёрные птицы",
+    "tags": ["наутилус помпилиус"],
+    "genre": "New tracks",
+    "raiting": 3,
+    "text": "Rock, Punk/Nautilus Pompilius/Nautilus Pompilius - Чёрные птицы.html",
+    "score": "",
+    "playback": "https://drive.google.com/drive/folders/1Ly2jbKyw337OXvqEfPEBWbf__R8jUg1r?usp=drive_link",
+    "key": "",
+    "instruments": [
+      {
+        "title": "Guitar"
+      },
+      {
+        "title": "Bass Guitar"
+      }
+    ],
+    "new": true,
+    "visible": true
+  },
+  {
     "id": "214",
     "band": "Nautilus Pompilius", "title": "Я хочу быть с тобой",
     "tags": ["наутилус помпилиус"],

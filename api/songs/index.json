@@ -6674,7 +6674,9 @@
     "playback": "https://drive.google.com/drive/folders/1UpFMtP0W17zr7I80hJBbt7QRqj4_hj1R?usp=drive_link",
     "instruments": [
       {
-        "title": "Instrument"
+        "title": "Guitar",
+        "key": "Am",
+        "capo": 1
       }
     ],
     "new": true,

@@ -6672,12 +6672,15 @@
     "text": "Rap, Hip-hop/Kentukki/Kentukki - Замигает свет.html",
     "score": "",
     "playback": "https://drive.google.com/drive/folders/1UpFMtP0W17zr7I80hJBbt7QRqj4_hj1R?usp=drive_link",
-    "key": "A№m",
+    "key": "A#m",
     "instruments": [
       {
         "title": "Guitar",
         "key": "Am",
         "capo": 1
+      },
+      {
+        "title": "Bass Guitar"
       }
     ],
     "new": true,

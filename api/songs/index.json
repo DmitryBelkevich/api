@@ -3395,9 +3395,13 @@
     "key": "Cm",
     "instruments": [
       {
-        "title": "Instrument"
+        "title": "Guitar"
+      },
+      {
+        "title": "Bass Guitar"
       }
     ],
+    "new": true,
     "visible": true
   },
   {

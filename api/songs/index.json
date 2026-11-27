@@ -4218,6 +4218,7 @@
         "title": "Instrument"
       }
     ],
+    "new": true,
     "visible": true
   },
   {
@@ -4300,6 +4301,7 @@
         "title": "Bass Guitar"
       }
     ],
+    "new": true,
     "visible": true
   },
   {

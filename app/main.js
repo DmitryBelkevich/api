@@ -9,10 +9,22 @@ class SongsDao {
   }
 }
 
+class SongsService {
+  #songsDao = new SongsDao();
+
+  async getIds() {
+    const ids = [];
+    
+    const songs = await songsDao.getAll();
+    
+    return ids;
+  }
+}
+
 async function main() {
-  const songsDao = new SongsDao();
-  const songs = await songsDao.getAll();
-  console.log(songs);
+  const songsService = new SongsService();
+  const ids = await songsService.getIds();
+  console.log(ids);
 }
 
 const app = main();

@@ -26,7 +26,7 @@ class SongsService {
 function findMissingNumbers(arr) {
   const missing = [];
 
-  const set = new Set(arr);console.log(set);
+  const set = new Set(arr);
   const min = Math.min(...arr);
   const max = Math.max(...arr);
   
@@ -41,7 +41,7 @@ async function main() {
   const songsService = new SongsService();
   const ids = await songsService.getIds();
 
-  // console.log(ids);
+  console.log(ids);
   
   // for (const id of ids)
   //   console.log(id);

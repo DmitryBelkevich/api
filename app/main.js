@@ -15,7 +15,7 @@ class SongsService {
   async getIds() {
     const ids = [];
     
-    const songs = await this.#songsDao.getAll();
+    const songs = await this.#songsDao.getAll();console.log(songs);
     for (const song of songs)
       ids.push(song.id);
     
@@ -40,14 +40,12 @@ function findMissingNumbers(arr) {
 async function main() {
   const songsService = new SongsService();
   const ids = await songsService.getIds();
-
-  console.log(ids);
   
   // for (const id of ids)
   //   console.log(id);
 
   const missingIds = findMissingNumbers(ids);
-  console.log(missingIds);
+  // console.log(missingIds);
 }
 
 const app = main();

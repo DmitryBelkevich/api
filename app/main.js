@@ -9,9 +9,9 @@ class SongsDao {
   }
 }
 
-function main() {
+async function main() {
   const songsDao = new SongsDao();
-  const songs = songsDao.getAll();
+  const songs = await songsDao.getAll();
   console.log(songs);
 }
 

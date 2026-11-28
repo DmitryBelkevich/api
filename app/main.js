@@ -26,7 +26,9 @@ class SongsService {
 async function main() {
   const songsService = new SongsService();
   const ids = await songsService.getIds();
-  console.log(ids);
+
+  for (const id of ids)
+    console.log(id);
 }
 
 const app = main();

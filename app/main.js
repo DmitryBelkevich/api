@@ -23,7 +23,7 @@ class SongsService {
   }
 }
 
-function findMissingNumbers(arr) {
+function findMissing(arr) {
   const missing = [];
 
   const set = new Set(arr);
@@ -40,11 +40,8 @@ function findMissingNumbers(arr) {
 async function main() {
   const songsService = new SongsService();
   const ids = await songsService.getIds();
-  
-  // for (const id of ids)
-  //   console.log(id);
 
-  const missingIds = findMissingNumbers(ids);
+  const missingIds = findMissing(ids);
   console.log(missingIds);
 }
 

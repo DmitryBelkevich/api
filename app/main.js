@@ -4,7 +4,7 @@ class SongsDao {
   #loader = new JsonLoader();
   
   async getAll() {
-    const songs = await loader.load("https://dmitrybelkevich.github.io/api/" + "api/" + "songs");
+    const songs = await this.#loader.load("https://dmitrybelkevich.github.io/api/" + "api/" + "songs");
     return songs;
   }
 }

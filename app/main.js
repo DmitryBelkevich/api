@@ -27,8 +27,8 @@ function findMissingNumbers(arr) {
   const missing = [];
 
   const numSet = new Set(arr);
-  const min = Math.min(...arr);
-  const max = Math.max(...arr);
+  const min = Math.min(...arr);console.log(min);
+  const max = Math.max(...arr);console.log(max);
   
   for (let i = min; i <= max; i++)
     if (!numSet.has(i))

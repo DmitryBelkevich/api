@@ -89,24 +89,6 @@
     "new": true,
     "visible": true
   },
-  {
-    "id": "411",
-    "band": "Андрей Губин", "title": "Зима-Холода",
-    "tags": [],
-    "genre": "Winter",
-    "raiting": 3,
-    "text": "Pop, Dance/Андрей Губин/Андрей Губин - Зима-Холода.html",
-    "score": "",
-    "playback": "https://drive.google.com/drive/folders/19asjXjiylNfy04roRugmh0YybgCCntoI?usp=drive_link",
-    "key": "Bm",
-    "instruments": [
-      {
-        "title": "Instrument"
-      }
-    ],
-    "new": true,
-    "visible": true
-  },
   
   {
     "id": "1",
@@ -5769,6 +5751,24 @@
         "title": "Instrument"
       }
     ],
+    "visible": true
+  },
+  {
+    "id": "411",
+    "band": "Андрей Губин", "title": "Зима-Холода",
+    "tags": [],
+    "genre": "Winter",
+    "raiting": 3,
+    "text": "Pop, Dance/Андрей Губин/Андрей Губин - Зима-Холода.html",
+    "score": "",
+    "playback": "https://drive.google.com/drive/folders/19asjXjiylNfy04roRugmh0YybgCCntoI?usp=drive_link",
+    "key": "Bm",
+    "instruments": [
+      {
+        "title": "Instrument"
+      }
+    ],
+    "new": true,
     "visible": true
   },
   {

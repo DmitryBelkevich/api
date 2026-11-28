@@ -16,6 +16,9 @@ class SongsService {
     const ids = [];
     
     const songs = await this.#songsDao.getAll();
+    for (const song of songs) {
+      ids.push(song.id);
+    }
     
     return ids;
   }

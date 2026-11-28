@@ -26,7 +26,7 @@ class SongsService {
 function findMissingNumbers(arr) {
   const missing = [];
 
-  const set = new Set(arr);
+  const set = new Set(arr);console.log(set);
   const min = Math.min(...arr);
   const max = Math.max(...arr);
   

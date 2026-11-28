@@ -42,7 +42,7 @@ async function main() {
   const ids = await songsService.getIds();
 
   const missingIds = findMissing(ids);
-  console.log(missingIds);
+  console.log("missing ids:", missingIds);
 }
 
 const app = main();

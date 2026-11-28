@@ -15,7 +15,7 @@ class SongsService {
   async getIds() {
     const ids = [];
     
-    const songs = await songsDao.getAll();
+    const songs = await this.#songsDao.getAll();
     
     return ids;
   }

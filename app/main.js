@@ -26,12 +26,12 @@ class SongsService {
 function findMissingNumbers(arr) {
   const missing = [];
 
-  const numSet = new Set(arr);
-  const min = Math.min(...arr);console.log(min);
-  const max = Math.max(...arr);console.log(max);
+  const set = new Set(arr);
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
   
   for (let i = min; i <= max; i++)
-    if (!numSet.has(i))
+    if (!set.has(i))
       missing.push(i);
   
   return missing;

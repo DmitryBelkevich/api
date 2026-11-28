@@ -6407,7 +6407,7 @@
   {
     "id": "320",
     "band": "Моя Мишель", "title": "Зима в сердце",
-    "genre": "Pop, Dance",
+    "genre": "Winter",
     "raiting": 2,
     "text": "Pop, Dance/Моя Мишель/Моя Мишель - Зима в сердце.html",
     "score": "",
@@ -6528,7 +6528,7 @@
   {
     "id": "328",
     "band": "Сладкий сон", "title": "На белом покрывале января",
-    "genre": "Pop, Dance",
+    "genre": "Winter",
     "raiting": 3,
     "text": "Pop, Dance/Сладкий сон/Сладкий сон - На белом покрывале января.html",
     "score": "https://drive.google.com/file/d/1_t4RwA-vPU7K4twMfRtWL2cGjPMzYT3-/view?usp=drive_link",
@@ -6699,13 +6699,14 @@
         "title": "Instrument"
       }
     ],
+    "new": true,
     "visible": true
   },
   {
     "id": "338",
     "band": "Feduk", "title": "Хлопья летят наверх",
     "tags": ["Федук"],
-    "genre": "Rap, Hip-hop",
+    "genre": "Winter",
     "raiting": 3,
     "text": "Rap, Hip-hop/Feduk/Feduk - Хлопья летят наверх.html",
     "score": "https://drive.google.com/file/d/1rGLIrFOPi0lumwyOzZTwbJMvLLdGbz_S/view?usp=drive_link",
@@ -7230,7 +7231,7 @@
   {
     "id": "384",
     "band": "Пламя", "title": "Снег кружится",
-    "genre": "Estrada",
+    "genre": "Winter",
     "raiting": 3,
     "text": "Estrada/Пламя/Пламя - Снег кружится.html",
     "score": "",

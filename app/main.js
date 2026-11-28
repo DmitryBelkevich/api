@@ -19,7 +19,7 @@ class SongsService {
     for (const song of songs)
       ids.push(song.id);
     
-    return ids.sort();
+    return ids.sort((a, b) => a - b);
   }
 }
 

@@ -46,7 +46,8 @@ async function main() {
   // for (const id of ids)
   //   console.log(id);
 
-  findMissingNumbers(ids);
+  const missingIds = findMissingNumbers(ids);
+  console.log(missingIds);
 }
 
 const app = main();

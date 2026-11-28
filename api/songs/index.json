@@ -3543,10 +3543,10 @@
   },
   {
     "id": "182",
-    "band": "Ляпис Трубецкой", "title": "Воины света",
+    "band": "Ляпис Трубецкой", "title": "Воины а",
     "genre": "Rock, Punk",
     "raiting": 3,
-    "text": "Rock, Punk/Ляпис Трубецкой/Ляпис Трубецкой - Воины света.html",
+    "text": "Rock, Punk/Ляпис Трубецкой/Ляпис Трубецкой - Воины а.html",
     "score": "https://drive.google.com/file/d/1hq4QGkXIz_MMJiWPdVO7X2iV8rCFTkyR/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1HSMCPKfA2_nZ22DBqnOFuw02Bla6BwOh?usp=drive_link",
     "key": "Am",
@@ -6046,6 +6046,7 @@
         "title": "Instrument"
       }
     ],
+    "new": true,
     "visible": true
   },
   {

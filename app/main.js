@@ -1,7 +1,9 @@
 import JsonLoader from './loaders/JsonLoader.js';
 
 function main() {
-  console.log("Hello World");
+  const loader = new JsonLoader();
+  const songs = loader.load("https://dmitrybelkevich.github.io/api/" + "api/" + "songs");
+  console.log(songs);
 }
 
 const app = main();

@@ -23,14 +23,30 @@ class SongsService {
   }
 }
 
+function findMissingNumbers(arr) {
+  const missing = [];
+
+  const numSet = new Set(arr);
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  
+  for (let i = min; i <= max; i++)
+    if (!numSet.has(i))
+      missing.push(i);
+  
+  return missing;
+}
+
 async function main() {
   const songsService = new SongsService();
   const ids = await songsService.getIds();
 
-  console.log(ids);
+  // console.log(ids);
   
-  for (const id of ids)
-    console.log(id);
+  // for (const id of ids)
+  //   console.log(id);
+
+  findMissingNumbers(ids);
 }
 
 const app = main();
